@@ -1,4 +1,7 @@
 import styled from 'styled-components/native';
+import { Dimensions } from 'react-native'
+ 
+const { width, height } = Dimensions.get('window')
 
 export const Container = styled.View`
   flex: 1;
@@ -8,7 +11,7 @@ export const Container = styled.View`
 `;
 
 export const LoginButton  = styled.TouchableOpacity`
-  width: 300px;
+  width: ${width-60}px;
   height: 50px;
   border-radius: 20px;
   background: #5B628F;
@@ -27,7 +30,7 @@ export const TextButton = styled.Text`
 export const ButtonContainer = styled.View`
   padding: 10px;
   flex-direction: row;
-  width: 300px;
+  width: ${width-60}px;
   justify-content: space-between;
   margin-top: 10px;
 `;
