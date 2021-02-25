@@ -6,7 +6,7 @@ const { width, height } = Dimensions.get('window')
 
 export const Container = styled.View`
     width: ${width-60}px;;
-    height: 65px;
+    height: 68px;
     border-radius: 20px;
     padding: 10px;
     justify-content: center;
@@ -25,7 +25,7 @@ export const InputContainer = styled.View`
     flex-direction: row;
     justify-content: flex-start;
     padding-bottom: 10px;
-    align-items: center
+    align-items: center;
 `;
 
 export const Input = styled.TextInput`
