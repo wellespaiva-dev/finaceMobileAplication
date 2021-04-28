@@ -14,9 +14,10 @@ $ npm install i
 
 Runs next which starts app in development mode
 
-bash
+bash:
 $ react-native start
-//Open other terminal:
+
+Open other terminal: 
 $ react-native run-android
 
 
